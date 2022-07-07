@@ -1,0 +1,55 @@
+.text {
+    -webkit-animation: NAME-YOUR-ANIMATION 5s infinite;
+    /* Safari 4+ */
+    -moz-animation: NAME-YOUR-ANIMATION 5s infinite;
+    /* Fx 5+ */
+    -o-animation: NAME-YOUR-ANIMATION 5s infinite;
+    /* Opera 12+ */
+    animation: NAME-YOUR-ANIMATION 5s infinite;
+    /* IE 10+ */
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+@-moz-keyframes NAME-YOUR-ANIMATION {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+@-o-keyframes NAME-YOUR-ANIMATION {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+@keyframes NAME-YOUR-ANIMATION {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+p {
+    font-size: 100px;
+    font-weight: bold;
+}
